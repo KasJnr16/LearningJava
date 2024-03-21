@@ -5,7 +5,7 @@ import javax.xml.catalog.Catalog;
 public class Main {
     public static void main(String[] args) {
 
-        InnerClasses ic = new InnerClasses(){
+        var ic = new InnerClasses(){
             @Override
             public void show() {
                System.out.println("New implementation");
